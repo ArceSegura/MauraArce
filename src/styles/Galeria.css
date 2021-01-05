@@ -1,0 +1,16 @@
+.ContenedorGaleria{
+    margin: 10px;
+}
+.Img{
+    width: 100%;
+    display: block;
+    border-radius: 25px;
+}
+.ContenedorGaleria h1{
+    color: var(--morado);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 3rem 0;
+}

@@ -1,0 +1,64 @@
+@media (min-width:768px) {
+    .ContenedorHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.Header{
+    border-bottom: 2px solid var(--morado);
+    padding: 2rem 1rem;
+}
+.ContenedorHeader{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+.ContenedorLogo{
+    display:flex;
+    align-items: center;
+}
+.Logo{
+    color: var(--morado);
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 2rem;
+}
+.Logo span{
+    color: var(--negro);
+    font-size: 3rem;
+    font-weight: 400;
+}
+.Logo:hover{
+    color: var(--morado);
+    text-decoration: none;
+}
+.ContenedorLogin{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--morado);
+    border: 1px solid var(--morado);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover{
+    color: var(--morado);
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid;
+}

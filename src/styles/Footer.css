@@ -1,0 +1,41 @@
+.Footer{
+	padding:10px 25px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
+	background: var(--morado);
+}
+
+.Dedicatoria{
+    margin: auto;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	padding:30px;
+	color:white;
+}
+
+.Dedicatoria h6{
+    margin: 5px;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.Dedicatoria h1{
+    margin: 5px;
+    text-align: center;
+
+}
+
+.Mensaje{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-grow: 1;
+	width:25%;
+	text-align: justify;
+	z-index: 1;
+	color:white;
+	margin: 20px;
+}

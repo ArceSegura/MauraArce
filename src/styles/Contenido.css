@@ -1,0 +1,32 @@
+.Contenido{
+    height: 500px;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--morado);
+}
+
+.Texto{
+    padding: 5rem 0;
+}
+
+.Texto div{
+    margin: 5rem;
+}
+
+.Texto div h1{
+    color: var(--morado);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 2rem;
+}
+
+.Texto div p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Imagen{
+    background-image: url(../img/img.svg);
+    background-size: cover;
+}
